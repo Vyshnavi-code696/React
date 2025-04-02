@@ -1,6 +1,6 @@
 import{useState}from "react";
 function Hello(){
-    let[name,setName]=useState("gopika")
+    let[name,setName]=useState("Gopika")
     const changeName=()=>{
         setName("Radhika")
         console.log("Radhika")
